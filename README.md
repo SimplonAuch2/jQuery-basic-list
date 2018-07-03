@@ -47,4 +47,4 @@ var books = [
 
 ### 2. Ajouter 2 boutons intitulés JS et CSS dans la page *HTML* qui permettent de filtrer, respectivement, les livres de type *CSS* et *JS*.
 
-### 3. Transformer la ```javascript var books``` en fichier *JSON* et utiliser *Ajax* pour récupérer les données.
+### 3. Transformer la ```var books``` en fichier *JSON* et utiliser *Ajax* pour récupérer les données.
