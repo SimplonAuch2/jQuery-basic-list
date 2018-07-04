@@ -48,3 +48,28 @@ var books = [
 ### 2. Ajouter 2 boutons intitulés JS et CSS dans la page *HTML* qui permettent de filtrer, respectivement, les livres de type *CSS* et *JS*.
 
 ### 3. Transformer la ```var books``` en fichier *JSON* et utiliser *Ajax* pour afficher les données.
+
+Exemple de synthaxe *Ajax*
+
+
+```
+$.ajax({
+    url:'cheminJSON',
+	data: {
+		task: 'get',
+	}
+
+}).done(function() {
+
+    alert( "success" );
+
+}).fail(function() {
+
+    alert( "error" );
+
+}).always(function() {
+
+    alert( "complete" );
+
+});
+```
